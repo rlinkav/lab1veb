@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №2 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        
+        <div class="content-left">
+            <h1>Обо мне</h1>
+            <p>Привет! Меня зовут Ангелина.<br> Я студентка, изучающая веб-программирование.</p>
+            
+            <h2>Мои навыки</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Основы Python</li>
+            </ul>
+
+            <h2>Контакты</h2>
+            <p>Связаться со мной можно по <a href="https://vk.ru/rlinkav">этой ссылке на ВКонтакте</a>.</p>
+        </div>
+
+        <div class="content-right">
+            <img src="https://i.pinimg.com/736x/ac/89/91/ac8991b1605927d0a9dc535c3ee7fa5d.jpg" alt="Фото котика">
+        </div>
+
+    </div>
+</body>
+</html>
