@@ -1,0 +1,52 @@
+body {
+    background-color: #c78bae;
+}
+/* заголовки параграфы */
+h1, h2 {
+    color: #71057fd1;
+    font-size: 24px;
+    margin: 10px;
+}
+p, li, a {
+    font-size: 16px;
+    line-height: 1.5;
+}
+a {
+    color: #3498db;
+    text-decoration: none; /*убираем подчеркивание*/
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 20px;
+}
+.content {
+    display: flex; /* в один горизонтальный ряд*/
+    margin: 0 auto;
+    max-width: 800px; 
+    margin-top: 40px;
+}
+/* стили для левой карточки */
+.content-left {
+    background-color: #ffffff; 
+    margin: 10px;
+    padding: 20px; 
+    border-radius: 10px;/*скругляем углы*/
+}
+
+/* стили для правой карточки */
+.content-right {
+    background-color: #ffffff; 
+    margin: 10px; 
+    padding: 20px; 
+    border-radius: 10px; 
+
+}
+
+img {
+    max-width: 100%; 
+    height: auto;
+}
